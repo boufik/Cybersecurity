@@ -1,0 +1,3 @@
+- Code for Unix-like systems (Linux and MAC) written in Bash
+- It requires Nmap to be installed
+- Sacns using Bash and Nmap
