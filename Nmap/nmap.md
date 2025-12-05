@@ -34,6 +34,9 @@
 | 23 | `-dd` | Verbosity Level: Details on Debugging |
 | 24 | `--source-port <port_number>` | Specify the source port number, otherwise it is random |
 | 25 | `--data-length <length>` | Append random non-sense data, just to reach the specified packet length |
+| 26 | `-S <spoofed_IP>` | Spoofed IP address |
+| 27 | `--spoof-mac <spoofed_MAC>` | Spoofed MAC address |
+| 28 | `-D <decoys1>,ME,<decoys2>` | Decoy IPs alongside my IP |
 
 # 2. Scan commands
 
@@ -64,3 +67,10 @@
 | 9  | `nmap -sW <target>` | Yes | Advanced | ~~ Similar to TCP ACK scan ~~<br>But the `Window` field of `RST` packet is examined. **This scan exposes the firewall rules, NOT the services**. If a port is *closed or open*, we expect:<br>`TCP_ACK --> RST` |
 | 10 | `nmap --scanflags URGACKPSHRSTSYNFIN <target>` | Yes | Advanced | ~~ Custom Scan ~~<br>We can set whichever ports we want to 1, but we need to know how the *different ports behave*, in order to interpret the results correctly. |
 
+## 2c. Hiding-identity scans
+
+| No | Command | Requires `sudo` | Reason and impact |
+|:----:|:----|:----|:----|
+| 1 | `nmap -S <spoofed_IP> <target>` | Yes | Spoofing my IP address requires `sudo`. But the target will **respond to the spoofed IP address**. The attackers must **monitor the network of the spoofed_IP machine** in order to infer things for the target. |
+| 2 | `nmap -D <decoys1>,ME,<decoys2> <target>` | No | Make the scan appear as if it is coming from many IP addresses. Our IP will be **blended among a variety of IPs** and we will receive the reply from the target. |
+| 3 | `nmap -sI <zombie_IP> <target>` | Yes | ~~ Zombie or idle scan ~~<br>An idle system is prerequisite.<br>1) We trigger the zombie in order to notice its IP ID.<br>2) We send a packet as if it is coming from the zombie machine.<br>3) We trigger again the zombie to notice the new IP ID.<br>-->If the IP IDs differ by 1, the port was *closed or filtered*. If the difference is 2, the port is actually *open*.|
