@@ -35,9 +35,9 @@
 | 24 | `--source-port <port_number>` | Specify the source port number, otherwise it is random |
 | 25 | `--data-length <length>` | Append random non-sense data, just to reach the specified packet length |
 
-# 2. Live Host Discovery
+# 2. Scan commands
 
-## 2a. Basic scans
+## 2a. Live Host Discovery Scans
 
 | No | Command | Requires `sudo` | Operation |
 |:----:|:----|:----|:----|
@@ -49,4 +49,10 @@
 | 6 | `nmap -PA -sn <targets>` | Yes | TCP ACK ping scan (**ARP scan for the same subnet**) |
 | 7 | `nmap -PU -sn <targets>` | Yes | UDP ping scan (**ARP scan for the same subnet**) |
 
-## 2b. Advanced scans
+## 2b. Port Scans
+
+| No | Command | Requires `sudo` | Category | Operation |
+|:----:|:----|:----|:----|:----|
+| 1  | `nmap -sT <target>` | No | Basic | TCP Connect Scan: Leaves logs, as it completes the 3-way handshake<br>`SYN -> SYN,ACK -> ACK + RST,ACK` |
+| 2  | `nmap -sS <target>` | Yes | Basic | TCP SYN Scan: Stealth scan, as it does **NOT** establish a TCP connection, the handshake is never completed<br>`SYN -> SYN,ACK -> RST` |
+| 3  | `nmap -sU <target>` | Yes | Basic | UDP Scan: UDP does **NOT** require a handshake at all. If a port is closed, then we have this sequence:<br>`UDP_pkt -> ICMP_type3_code3` |
