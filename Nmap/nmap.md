@@ -53,14 +53,14 @@
 
 | No | Command | Requires `sudo` | Category | Operation |
 |:----:|:----|:----|:----|:----|
-| 1  | `nmap -sT <target>` | No | Basic | - TCP Connect Scan -<br>Leaves logs, as it completes the 3-way handshake.<br>`SYN --> SYN,ACK --> ACK + RST,ACK` |
-| 2  | `nmap -sS <target>` | Yes | Basic | - TCP SYN Scan -<br>Stealth scan, as it does **NOT** establish a TCP connection, the handshake is never completed.<br>`SYN --> SYN,ACK --> RST` |
-| 3  | `nmap -sU <target>` | Yes | Basic | - UDP Scan -<br>UDP does **NOT** require a handshake at all. If a port is *closed*, we expect:<br>`UDP_pkt --> ICMP_type3_code3` |
-| 4  | `nmap -sN <target>` | Yes | Advanced | - TCP Null Scan -<br>All 6 flags are set to 0. If a port is *closed*, we expect:<br>`TCP_null --> RST,ACK` |
-| 5  | `nmap -sF <target>` | Yes | Advanced | - TCP FIN Scan -<br>One flag `FIN` is set to 1. If a port is *closed*, we expect:<br>`TCP_FIN --> RST,ACK` |
-| 6  | `nmap -sX <target>` | Yes | Advanced | - TCP Xmas Scan -<br>Three flags `URG`, `PSH` and `FIN` are set to 1. If a port is *closed*, we expect:<br>`TCP_URG_PSH_FIN --> RST,ACK` |
-| 7  | `nmap -sM <target>` | Yes | Advanced | - TCP Maimon Scan -<br>Two flags `ACK` and `FIN` are set to 1. **Rather useless scan**. If a port is *closed or open*, we expect:<br>`TCP_ACK_FIN --> RST` |
-| 8  | `nmap -sA <target>` | Yes | Advanced | - TCP ACK Scan -<br>One flag `ACK` is set to 1. **This scan exposes the firewall rules, NOT the services**. If a port is *closed or open*, we expect:<br>`TCP_ACK --> RST` |
-| 9  | `nmap -sW <target>` | Yes | Advanced | - Similar to TCP ACK scan -<br>But the `Window` field of `RST` packet is examined. **This scan exposes the firewall rules, NOT the services**. If a port is *closed or open*, we expect:<br>`TCP_ACK --> RST` |
-| 10 | `nmap --scanflags URGACKPSHRSTSYNFIN <target>` | Yes | Advanced | - Custom Scan -<br>We can set whichever ports we want to 1, but we need to know how the *different ports behave*, in order to interpret the results correctly. |
+| 1  | `nmap -sT <target>` | No | Basic | ~~ TCP Connect Scan ~~<br>Leaves logs, as it completes the 3-way handshake.<br>`SYN --> SYN,ACK --> ACK + RST,ACK` |
+| 2  | `nmap -sS <target>` | Yes | Basic | ~~ TCP SYN Scan ~~<br>Stealth scan, as it does **NOT** establish a TCP connection, the handshake is never completed.<br>`SYN --> SYN,ACK --> RST` |
+| 3  | `nmap -sU <target>` | Yes | Basic | ~~ UDP Scan ~~<br>UDP does **NOT** require a handshake at all. If a port is *closed*, we expect:<br>`UDP_pkt --> ICMP_type3_code3` |
+| 4  | `nmap -sN <target>` | Yes | Advanced | ~~ TCP Null Scan ~~<br>All 6 flags are set to 0. If a port is *closed*, we expect:<br>`TCP_null --> RST,ACK` |
+| 5  | `nmap -sF <target>` | Yes | Advanced | ~~ TCP FIN Scan ~~<br>One flag `FIN` is set to 1. If a port is *closed*, we expect:<br>`TCP_FIN --> RST,ACK` |
+| 6  | `nmap -sX <target>` | Yes | Advanced | ~~ TCP Xmas Scan ~~<br>Three flags `URG`, `PSH` and `FIN` are set to 1. If a port is *closed*, we expect:<br>`TCP_URG_PSH_FIN --> RST,ACK` |
+| 7  | `nmap -sM <target>` | Yes | Advanced | ~~ TCP Maimon Scan ~~<br>Two flags `ACK` and `FIN` are set to 1. **Rather useless scan**. If a port is *closed or open*, we expect:<br>`TCP_ACK_FIN --> RST` |
+| 8  | `nmap -sA <target>` | Yes | Advanced | ~~ TCP ACK Scan ~~<br>One flag `ACK` is set to 1. **This scan exposes the firewall rules, NOT the services**. If a port is *closed or open*, we expect:<br>`TCP_ACK --> RST` |
+| 9  | `nmap -sW <target>` | Yes | Advanced | ~~ Similar to TCP ACK scan ~~<br>But the `Window` field of `RST` packet is examined. **This scan exposes the firewall rules, NOT the services**. If a port is *closed or open*, we expect:<br>`TCP_ACK --> RST` |
+| 10 | `nmap --scanflags URGACKPSHRSTSYNFIN <target>` | Yes | Advanced | ~~ Custom Scan ~~<br>We can set whichever ports we want to 1, but we need to know how the *different ports behave*, in order to interpret the results correctly. |
 
