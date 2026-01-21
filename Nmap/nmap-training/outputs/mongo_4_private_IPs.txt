@@ -1,0 +1,318 @@
+{
+        "_id" : ObjectId("694a97094efe005333079a7c"),
+        "IP" : "172.17.0.1",
+        "IP_version" : "ToBeDefinedInFuture",
+        "FQDN" : "",
+        "services" : [
+                {
+                        "port" : 8000,
+                        "protocol" : "tcp",
+                        "state" : "open",
+                        "name" : "http",
+                        "product_version" : "SimpleHTTPServer 0.6",
+                        "cpe" : "cpe:/a:python:simplehttpserver:0.6"
+                },
+                {
+                        "port" : 8080,
+                        "protocol" : "tcp",
+                        "state" : "filtered",
+                        "name" : "http-proxy",
+                        "product_version" : " ",
+                        "cpe" : ""
+                },
+                {
+                        "port" : 27016,
+                        "protocol" : "tcp",
+                        "state" : "filtered",
+                        "name" : "",
+                        "product_version" : " ",
+                        "cpe" : ""
+                },
+                {
+                        "port" : 27017,
+                        "protocol" : "tcp",
+                        "state" : "filtered",
+                        "name" : "mongod",
+                        "product_version" : " ",
+                        "cpe" : ""
+                }
+        ],
+        "vulnerabilities_CVEs" : [
+                "CVE-2007-6750",
+                "CVE-2007-6750"
+        ],
+        "vulnerabilities_CNVDs" : [ ],
+        "sql_injections" : [ ],
+        "scripts_truncated" : {
+                "8000" : {
+                        "http-dombased-xss" : "Couldn't find any DOM based XSS.",
+                        "http-stored-xss" : "Couldn't find any stored XSS vulnerabilities.",
+                        "http-title" : "Directory listing for /",
+                        "http-csrf" : "Couldn't find any CSRF vulnerabilities.",
+                        "http-server-header" : "SimpleHTTP/0.6 Python/3.13.9",
+                        "http-slowloris-check" : "\n  VULNERABLE:\n  Slowloris DOS attack\n    State: L"
+                },
+                "8080" : {
+
+                },
+                "27016" : {
+
+                },
+                "27017" : {
+
+                }
+        },
+        "os" : {
+                "guess" : "Linux 5.0 - 6.2",
+                "osfamily" : "Linux 5.X | Linux 6.X",
+                "cpe" : "cpe:/o:linux:linux_kernel:5 | cpe:/o:linux:linux_kernel:6"
+        }
+}
+{
+        "_id" : ObjectId("694a97094efe005333079a7d"),
+        "IP" : "172.17.0.2",
+        "IP_version" : "ToBeDefinedInFuture",
+        "FQDN" : "",
+        "services" : [
+                {
+                        "port" : 27017,
+                        "protocol" : "tcp",
+                        "state" : "open",
+                        "name" : "mongodb",
+                        "product_version" : "MongoDB 4.4.29",
+                        "cpe" : "cpe:/a:mongodb:mongodb:4.4.29"
+                }
+        ],
+        "vulnerabilities_CVEs" : [ ],
+        "vulnerabilities_CNVDs" : [
+                "CNVD-2022-55155"
+        ],
+        "sql_injections" : [ ],
+        "scripts_truncated" : {
+                "27017" : {
+                        "vulners" : "\n  cpe:/a:mongodb:mongodb:4.4.29: \n    \tOSV:BIT-MO",
+                        "mongodb-databases" : "\n  totalSize = 274432.0\n  ok = 1.0\n  databases\n   ",
+                        "mongodb-info" : "\n  MongoDB Build info\n    openssl\n      compiled ="
+                }
+        },
+        "os" : {
+                "guess" : "Linux 4.15 - 5.19",
+                "osfamily" : "Linux 4.X | Linux 5.X",
+                "cpe" : "cpe:/o:linux:linux_kernel:4 | cpe:/o:linux:linux_kernel:5"
+        }
+}
+{
+        "_id" : ObjectId("694a97094efe005333079a7e"),
+        "IP" : "172.17.0.3",
+        "IP_version" : "ToBeDefinedInFuture",
+        "FQDN" : "",
+        "services" : [
+                {
+                        "port" : 27017,
+                        "protocol" : "tcp",
+                        "state" : "open",
+                        "name" : "mongodb",
+                        "product_version" : "MongoDB 4.4.29 4.4.29",
+                        "cpe" : "cpe:/a:mongodb:mongodb:4.4.29"
+                }
+        ],
+        "vulnerabilities_CVEs" : [ ],
+        "vulnerabilities_CNVDs" : [
+                "CNVD-2022-55155"
+        ],
+        "sql_injections" : [ ],
+        "scripts_truncated" : {
+                "27017" : {
+                        "mongodb-info" : "\n  MongoDB Build info\n    openssl\n      compiled =",
+                        "vulners" : "\n  cpe:/a:mongodb:mongodb:4.4.29: \n    \tOSV:BIT-MO",
+                        "mongodb-databases" : "\n  totalSize = 299008.0\n  ok = 1.0\n  databases\n   "
+                }
+        },
+        "os" : {
+                "guess" : "Linux 4.15 - 5.19",
+                "osfamily" : "Linux 4.X | Linux 5.X",
+                "cpe" : "cpe:/o:linux:linux_kernel:4 | cpe:/o:linux:linux_kernel:5"
+        }
+}
+{
+        "_id" : ObjectId("694a97094efe005333079a7f"),
+        "IP" : "172.17.0.4",
+        "IP_version" : "ToBeDefinedInFuture",
+        "FQDN" : "",
+        "services" : [
+                {
+                        "port" : 80,
+                        "protocol" : "tcp",
+                        "state" : "open",
+                        "name" : "http",
+                        "product_version" : "Apache httpd 2.4.25",
+                        "cpe" : "cpe:/a:apache:http_server:2.4.25"
+                }
+        ],
+        "vulnerabilities_CVEs" : [
+                "CVE-2006-20001",
+                "CVE-2017-15710",
+                "CVE-2017-15715",
+                "CVE-2017-3167",
+                "CVE-2017-3169",
+                "CVE-2017-7659",
+                "CVE-2017-7668",
+                "CVE-2017-7679",
+                "CVE-2017-9788",
+                "CVE-2017-9798",
+                "CVE-2018-11763",
+                "CVE-2018-1283",
+                "CVE-2018-1301",
+                "CVE-2018-1302",
+                "CVE-2018-1303",
+                "CVE-2018-1312",
+                "CVE-2018-1333",
+                "CVE-2018-17189",
+                "CVE-2018-17199",
+                "CVE-2018-8011",
+                "CVE-2019-0196",
+                "CVE-2019-0211",
+                "CVE-2019-0217",
+                "CVE-2019-0220",
+                "CVE-2019-10081",
+                "CVE-2019-10082",
+                "CVE-2019-10092",
+                "CVE-2019-10098",
+                "CVE-2019-17567",
+                "CVE-2019-9517",
+                "CVE-2020-11993",
+                "CVE-2020-13938",
+                "CVE-2020-1927",
+                "CVE-2020-1934",
+                "CVE-2020-35452",
+                "CVE-2020-9490",
+                "CVE-2021-26690",
+                "CVE-2021-26691",
+                "CVE-2021-33193",
+                "CVE-2021-34798",
+                "CVE-2021-39275",
+                "CVE-2021-40438",
+                "CVE-2021-44224",
+                "CVE-2021-44790",
+                "CVE-2022-22719",
+                "CVE-2022-22720",
+                "CVE-2022-22721",
+                "CVE-2022-23943",
+                "CVE-2022-26377",
+                "CVE-2022-28330",
+                "CVE-2022-28614",
+                "CVE-2022-28615",
+                "CVE-2022-29404",
+                "CVE-2022-30556",
+                "CVE-2022-31813",
+                "CVE-2022-36760",
+                "CVE-2022-37436",
+                "CVE-2023-25690",
+                "CVE-2023-31122",
+                "CVE-2023-38709",
+                "CVE-2023-45802",
+                "CVE-2024-24795",
+                "CVE-2024-27316",
+                "CVE-2024-38472",
+                "CVE-2024-38473",
+                "CVE-2024-38474",
+                "CVE-2024-38475",
+                "CVE-2024-38476",
+                "CVE-2024-38477",
+                "CVE-2024-39573",
+                "CVE-2024-40898",
+                "CVE-2024-42516",
+                "CVE-2024-43204",
+                "CVE-2024-43394",
+                "CVE-2024-47252",
+                "CVE-2025-49812",
+                "CVE-2025-53020",
+                "CVE-2025-58098",
+                "CVE-2025-59775",
+                "CVE-2025-65082",
+                "CVE-2025-66200"
+        ],
+        "vulnerabilities_CNVDs" : [
+                "CNVD-2017-13906",
+                "CNVD-2018-06535",
+                "CNVD-2018-06536",
+                "CNVD-2018-20078",
+                "CNVD-2018-25796",
+                "CNVD-2019-02938",
+                "CNVD-2019-08941",
+                "CNVD-2019-08945",
+                "CNVD-2019-08946",
+                "CNVD-2019-41283",
+                "CNVD-2020-21904",
+                "CNVD-2020-29872",
+                "CNVD-2020-46278",
+                "CNVD-2020-46279",
+                "CNVD-2020-46281",
+                "CNVD-2021-102386",
+                "CNVD-2021-102387",
+                "CNVD-2021-44765",
+                "CNVD-2021-44766",
+                "CNVD-2022-03223",
+                "CNVD-2022-03224",
+                "CNVD-2022-03225",
+                "CNVD-2022-13199",
+                "CNVD-2022-41638",
+                "CNVD-2022-41639",
+                "CNVD-2022-41640",
+                "CNVD-2022-51058",
+                "CNVD-2022-51059",
+                "CNVD-2022-51060",
+                "CNVD-2022-51061",
+                "CNVD-2022-53582",
+                "CNVD-2022-53584",
+                "CNVD-2023-30859",
+                "CNVD-2023-30860",
+                "CNVD-2023-80558",
+                "CNVD-2023-93320",
+                "CNVD-2024-20839",
+                "CNVD-2024-33814",
+                "CNVD-2024-36387",
+                "CNVD-2024-36388",
+                "CNVD-2024-36389",
+                "CNVD-2024-36390",
+                "CNVD-2024-36391",
+                "CNVD-2024-36393",
+                "CNVD-2024-36394",
+                "CNVD-2024-36395",
+                "CNVD-2025-16608",
+                "CNVD-2025-16609",
+                "CNVD-2025-16612",
+                "CNVD-2025-16613",
+                "CNVD-2025-16614",
+                "CNVD-2025-30833",
+                "CNVD-2025-30835",
+                "CNVD-2025-30836"
+        ],
+        "sql_injections" : [
+                "http://172.17.0.4:80/?C=D%3BO%3DA%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=S%3BO%3DA%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=N%3BO%3DD%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=N%3BO%3DA%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=M%3BO%3DD%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=M%3BO%3DA%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=S%3BO%3DD%27%20OR%20sqlspider",
+                "http://172.17.0.4:80/?C=D%3BO%3DD%27%20OR%20sqlspider"
+        ],
+        "scripts_truncated" : {
+                "80" : {
+                        "http-title" : "Index of /",
+                        "http-server-header" : "Apache/2.4.25 (Debian)",
+                        "http-enum" : "\n  /: Root directory w/ listing on 'apache/2.4.25 ",
+                        "http-sql-injection" : "\n  Possible sqli for queries:\n    http://172.17.0.",
+                        "http-dombased-xss" : "Couldn't find any DOM based XSS.",
+                        "vulners" : "\n  cpe:/a:apache:http_server:2.4.25: \n    \tPACKETS",
+                        "http-csrf" : "Couldn't find any CSRF vulnerabilities.",
+                        "http-stored-xss" : "Couldn't find any stored XSS vulnerabilities."
+                }
+        },
+        "os" : {
+                "guess" : "Linux 4.15 - 5.19",
+                "osfamily" : "Linux 4.X | Linux 5.X",
+                "cpe" : "cpe:/o:linux:linux_kernel:4 | cpe:/o:linux:linux_kernel:5"
+        }
+}

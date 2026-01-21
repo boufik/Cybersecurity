@@ -1,0 +1,140 @@
+Total Hosts: 256
+Down Hosts : 237
+Up Hosts   : 19
+
+
+-------- Host Discovery --------
+
+
+----
+192.168.100.1   : 
+up (arp-response)
+Hostname: 
+MAC: 0C:B9:12:06:58:70
+Vendor: JM-Data GmbH
+
+----
+192.168.100.33  : 
+up (arp-response)
+Hostname: 
+MAC: AA:DC:F7:51:D8:6A
+Vendor: JM-Data GmbH
+
+----
+192.168.100.34  : 
+up (arp-response)
+Hostname: 
+MAC: 44:A3:BB:C7:35:21
+Vendor: JM-Data GmbH
+
+----
+192.168.100.35  : 
+up (arp-response)
+Hostname: 
+MAC: 78:46:5C:64:5C:69
+Vendor: Cloud Network Technology Singapore PTE.
+
+----
+192.168.100.36  : 
+up (arp-response)
+Hostname: 
+MAC: 8C:B8:7E:14:CA:7B
+Vendor: Intel Corporate
+
+----
+192.168.100.40  : 
+up (arp-response)
+Hostname: 
+MAC: 10:68:38:F5:AF:2A
+Vendor: AzureWave Technology
+
+----
+192.168.100.41  : 
+up (arp-response)
+Hostname: 
+MAC: E4:5E:37:BF:FD:E2
+Vendor: Intel Corporate
+
+----
+192.168.100.42  : 
+up (arp-response)
+Hostname: 
+MAC: D8:C0:A6:EC:38:F3
+Vendor: AzureWave Technology
+
+----
+192.168.100.44  : 
+up (arp-response)
+Hostname: 
+MAC: AC:12:03:71:ED:00
+Vendor: Intel Corporate
+
+----
+192.168.100.56  : 
+up (arp-response)
+Hostname: 
+MAC: 00:72:EE:AC:BC:A0
+Vendor: Intel Corporate
+
+----
+192.168.100.60  : 
+up (arp-response)
+Hostname: 
+MAC: C8:CE:A2:C3:7A:8A
+Vendor: Intel Corporate
+
+----
+192.168.100.62  : 
+up (arp-response)
+Hostname: 
+MAC: 9C:FC:E8:2F:D6:8B
+Vendor: Intel Corporate
+
+----
+192.168.100.63  : 
+up (arp-response)
+Hostname: 
+MAC: 3C:55:76:5B:3E:E1
+Vendor: Cloud Network Technology Singapore PTE.
+
+----
+192.168.100.68  : 
+up (arp-response)
+Hostname: 
+MAC: AA:34:5D:85:DD:F0
+Vendor: Cloud Network Technology Singapore PTE.
+
+----
+192.168.100.72  : 
+up (arp-response)
+Hostname: 
+MAC: 10:68:38:F5:AF:2A
+Vendor: AzureWave Technology
+
+----
+192.168.100.79  : 
+up (arp-response)
+Hostname: 
+MAC: 98:BA:5F:38:05:D8
+Vendor: AzureWave Technology
+
+----
+192.168.100.88  : 
+up (arp-response)
+Hostname: 
+MAC: EA:E6:A4:BF:22:8F
+Vendor: AzureWave Technology
+
+----
+192.168.100.108 : 
+up (arp-response)
+Hostname: 
+MAC: 9C:05:D6:E4:0C:DD
+Vendor: Ubiquiti
+
+----
+192.168.100.93  : 
+up (localhost-response)
+Hostname: 
+MAC: 9C:05:D6:E4:0C:DD
+Vendor: Ubiquiti

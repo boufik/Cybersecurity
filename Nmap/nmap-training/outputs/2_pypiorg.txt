@@ -1,0 +1,108 @@
+{
+    "nmap": {
+        "command_line": "/usr/lib/nmap/nmap --privileged -oX - -sS -sV -p- 172.17.0.2,3,4",
+        "scaninfo": {
+            "tcp": {
+                "method": "syn",
+                "services": "1-65535"
+            }
+        },
+        "scanstats": {
+            "timestr": "Thu Dec 18 04:00:28 2025",
+            "elapsed": "7.59",
+            "uphosts": "3",
+            "downhosts": "0",
+            "totalhosts": "3"
+        }
+    },
+    "scan": {
+        "172.17.0.2": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "172.17.0.2",
+                "mac": "B2:05:48:F3:C0:9A"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            },
+            "tcp": {
+                "27017": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "mongodb",
+                    "product": "MongoDB",
+                    "version": "4.4.29",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:mongodb:mongodb:4.4.29"
+                }
+            }
+        },
+        "172.17.0.3": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "172.17.0.3",
+                "mac": "AA:D2:6D:A2:52:CC"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            },
+            "tcp": {
+                "27017": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "mongodb",
+                    "product": "MongoDB",
+                    "version": "4.4.29",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:mongodb:mongodb:4.4.29"
+                }
+            }
+        },
+        "172.17.0.4": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "172.17.0.4",
+                "mac": "02:3B:6A:83:70:81"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            },
+            "tcp": {
+                "80": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "http",
+                    "product": "Apache httpd",
+                    "version": "2.4.25",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:apache:http_server:2.4.25"
+                }
+            }
+        }
+    }
+} 
+ <class 'dict'>

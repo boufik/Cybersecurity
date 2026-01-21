@@ -1,0 +1,13 @@
+Scan info: {'tcp': {'method': 'syn', 'services': '1-65535'}}
+All hosts: ['172.17.0.4', '192.168.100.93']
+Hostnames:
+192.168.100.93 --> 
+172.17.0.4 --> 
+
+---- About 192.168.100.93 ----
+
+State: up
+All protocols: ['tcp']
+Open ports: dict_keys([8080, 27016, 27017])
+TCP 22? False
+TCP 8080? True

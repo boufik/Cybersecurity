@@ -1,0 +1,102 @@
+-------- Service Enumeration --------
+
+
+> Host 172.17.0.1 is up (localhost-response).
+
+{
+    "IP": "172.17.0.1",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "services": [
+        {
+            "port": 8000,
+            "protocol": "tcp",
+            "state": "open",
+            "name": "http",
+            "product_version": "SimpleHTTPServer 0.6",
+            "cpe": "cpe:/a:python:simplehttpserver:0.6"
+        },
+        {
+            "port": 8080,
+            "protocol": "tcp",
+            "state": "filtered",
+            "name": "http-proxy",
+            "product_version": " ",
+            "cpe": ""
+        },
+        {
+            "port": 27016,
+            "protocol": "tcp",
+            "state": "filtered",
+            "name": "",
+            "product_version": " ",
+            "cpe": ""
+        },
+        {
+            "port": 27017,
+            "protocol": "tcp",
+            "state": "filtered",
+            "name": "mongod",
+            "product_version": " ",
+            "cpe": ""
+        }
+    ]
+} 
+
+
+> Host 172.17.0.2 is up (arp-response).
+
+{
+    "IP": "172.17.0.2",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "services": [
+        {
+            "port": 80,
+            "protocol": "tcp",
+            "state": "open",
+            "name": "http",
+            "product_version": "Apache httpd 2.4.25",
+            "cpe": "cpe:/a:apache:http_server:2.4.25"
+        }
+    ]
+} 
+
+
+> Host 172.17.0.3 is up (arp-response).
+
+{
+    "IP": "172.17.0.3",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "services": [
+        {
+            "port": 27017,
+            "protocol": "tcp",
+            "state": "open",
+            "name": "mongodb",
+            "product_version": "MongoDB 4.4.29",
+            "cpe": "cpe:/a:mongodb:mongodb:4.4.29"
+        }
+    ]
+} 
+
+
+> Host 172.17.0.4 is up (arp-response).
+
+{
+    "IP": "172.17.0.4",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "services": [
+        {
+            "port": 27017,
+            "protocol": "tcp",
+            "state": "open",
+            "name": "mongodb",
+            "product_version": "MongoDB 4.4.29",
+            "cpe": "cpe:/a:mongodb:mongodb:4.4.29"
+        }
+    ]
+} 
+

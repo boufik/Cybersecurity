@@ -1,0 +1,2 @@
+Scan info: {'tcp': {'method': 'syn', 'services': '1-65535'}}
+Scan info: {'tcp': {'method': 'syn', 'services': '1-65535'}}

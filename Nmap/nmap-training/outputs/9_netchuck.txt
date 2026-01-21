@@ -1,0 +1,68 @@
+{
+    "nmap": {
+        "command_line": "/usr/lib/nmap/nmap --privileged -oX - -p- --script vuln 192.168.100.93",
+        "scaninfo": {
+            "tcp": {
+                "method": "syn",
+                "services": "1-65535"
+            }
+        },
+        "scanstats": {
+            "timestr": "Thu Dec 18 07:29:05 2025",
+            "elapsed": "37.53",
+            "uphosts": "1",
+            "downhosts": "0",
+            "totalhosts": "1"
+        }
+    },
+    "scan": {
+        "192.168.100.93": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.93"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "localhost-response"
+            },
+            "tcp": {
+                "8080": {
+                    "state": "filtered",
+                    "reason": "no-response",
+                    "name": "http-proxy",
+                    "product": "",
+                    "version": "",
+                    "extrainfo": "",
+                    "conf": "3",
+                    "cpe": ""
+                },
+                "27016": {
+                    "state": "filtered",
+                    "reason": "no-response",
+                    "name": "",
+                    "product": "",
+                    "version": "",
+                    "extrainfo": "",
+                    "conf": "",
+                    "cpe": ""
+                },
+                "27017": {
+                    "state": "filtered",
+                    "reason": "no-response",
+                    "name": "mongod",
+                    "product": "",
+                    "version": "",
+                    "extrainfo": "",
+                    "conf": "3",
+                    "cpe": ""
+                }
+            }
+        }
+    }
+}

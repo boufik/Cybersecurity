@@ -1,0 +1,410 @@
+{
+    "nmap": {
+        "command_line": "/usr/lib/nmap/nmap --privileged -oX - -n -sn 192.168.100.0/24",
+        "scaninfo": {},
+        "scanstats": {
+            "timestr": "Thu Dec 18 06:37:33 2025",
+            "elapsed": "5.00",
+            "uphosts": "22",
+            "downhosts": "234",
+            "totalhosts": "256"
+        }
+    },
+    "scan": {
+        "192.168.100.1": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.1",
+                "mac": "0C:B9:12:06:58:70"
+            },
+            "vendor": {
+                "0C:B9:12:06:58:70": "JM-Data GmbH"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.34": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.34",
+                "mac": "44:A3:BB:C7:35:21"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.35": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.35",
+                "mac": "78:46:5C:64:5C:69"
+            },
+            "vendor": {
+                "78:46:5C:64:5C:69": "Cloud Network Technology Singapore PTE."
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.36": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.36",
+                "mac": "8C:B8:7E:14:CA:7B"
+            },
+            "vendor": {
+                "8C:B8:7E:14:CA:7B": "Intel Corporate"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.40": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.40",
+                "mac": "10:68:38:F5:AF:2A"
+            },
+            "vendor": {
+                "10:68:38:F5:AF:2A": "AzureWave Technology"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.41": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.41",
+                "mac": "E4:5E:37:BF:FD:E2"
+            },
+            "vendor": {
+                "E4:5E:37:BF:FD:E2": "Intel Corporate"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.42": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.42",
+                "mac": "D8:C0:A6:EC:38:F3"
+            },
+            "vendor": {
+                "D8:C0:A6:EC:38:F3": "AzureWave Technology"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.43": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.43",
+                "mac": "96:B6:57:C8:3C:4E"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.44": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.44",
+                "mac": "AC:12:03:71:ED:00"
+            },
+            "vendor": {
+                "AC:12:03:71:ED:00": "Intel Corporate"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.55": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.55",
+                "mac": "0A:44:36:BD:47:6C"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.56": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.56",
+                "mac": "00:72:EE:AC:BC:A0"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.57": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.57",
+                "mac": "F6:9E:B9:4E:88:A2"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.59": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.59",
+                "mac": "0E:56:97:A4:71:F6"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.60": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.60",
+                "mac": "C8:CE:A2:C3:7A:8A"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.62": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.62",
+                "mac": "9C:FC:E8:2F:D6:8B"
+            },
+            "vendor": {
+                "9C:FC:E8:2F:D6:8B": "Intel Corporate"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.63": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.63",
+                "mac": "3C:55:76:5B:3E:E1"
+            },
+            "vendor": {
+                "3C:55:76:5B:3E:E1": "Cloud Network Technology Singapore PTE."
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.67": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.67",
+                "mac": "9C:B1:50:B6:9F:E5"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.79": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.79",
+                "mac": "98:BA:5F:38:05:D8"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.88": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.88",
+                "mac": "EA:E6:A4:BF:22:8F"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.108": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.108",
+                "mac": "9C:05:D6:E4:0C:DD"
+            },
+            "vendor": {
+                "9C:05:D6:E4:0C:DD": "Ubiquiti"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.117": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.117",
+                "mac": "D0:65:78:3C:F2:80"
+            },
+            "vendor": {
+                "D0:65:78:3C:F2:80": "Intel Corporate"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            }
+        },
+        "192.168.100.93": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.100.93"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "localhost-response"
+            }
+        }
+    }
+}

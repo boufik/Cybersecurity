@@ -1,0 +1,46 @@
+> Host 172.17.0.1
+
+{
+    "IP": "172.17.0.1",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "os": {
+        "guess": "Linux 5.0 - 6.2",
+        "osfamily": "Linux 5.X | Linux 6.X",
+        "cpe": "cpe:/o:linux:linux_kernel:5 | cpe:/o:linux:linux_kernel:6"
+    }
+} 
+
+
+> Host 172.17.0.2
+
+{
+    "IP": "172.17.0.2",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "os": {
+        "guess": "Linux 4.15 - 5.19",
+        "osfamily": "Linux 4.X | Linux 5.X",
+        "cpe": "cpe:/o:linux:linux_kernel:4 | cpe:/o:linux:linux_kernel:5"
+    }
+} 
+
+
+> Host 172.17.0.3
+
+{
+    "IP": "172.17.0.3",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "os": {}
+} 
+
+
+> Host 172.17.0.4
+
+{
+    "IP": "172.17.0.4",
+    "IP_version": "ToBeDefinedInFuture",
+    "FQDN": "",
+    "os": {}
+}

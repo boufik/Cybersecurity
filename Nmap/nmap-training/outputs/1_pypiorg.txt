@@ -1,0 +1,48 @@
+{
+    "nmap": {
+        "command_line": "/usr/lib/nmap/nmap --privileged -oX - -p 1-10000 -sV 127.0.0.1",
+        "scaninfo": {
+            "tcp": {
+                "method": "syn",
+                "services": "1-10000"
+            }
+        },
+        "scanstats": {
+            "timestr": "Thu Dec 18 04:00:14 2025",
+            "elapsed": "6.47",
+            "uphosts": "1",
+            "downhosts": "0",
+            "totalhosts": "1"
+        }
+    },
+    "scan": {
+        "127.0.0.1": {
+            "hostnames": [
+                {
+                    "name": "localhost",
+                    "type": "PTR"
+                }
+            ],
+            "addresses": {
+                "ipv4": "127.0.0.1"
+            },
+            "vendor": {},
+            "status": {
+                "state": "up",
+                "reason": "localhost-response"
+            },
+            "tcp": {
+                "8080": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "http",
+                    "product": "Apache httpd",
+                    "version": "2.4.25",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:apache:http_server:2.4.25"
+                }
+            }
+        }
+    }
+}
