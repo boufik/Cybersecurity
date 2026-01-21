@@ -1,0 +1,18 @@
+1)  Artifact
+2)  Autonomous System (AS)
+3)  Directory
+4)  Domain Name
+5)  Email Address
+6)  Email Message
+7)  File
+8)  IPv4 Address
+9)  IPv6 Address
+10) MAC Address
+11) Mutex
+12) Network Traffic
+13) Process
+14) Software
+15) URL
+16) User Account
+17) Windows Registry Key
+18) X.509 Certificate

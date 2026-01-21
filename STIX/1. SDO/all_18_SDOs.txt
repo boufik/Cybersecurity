@@ -1,0 +1,20 @@
+1)  Attack Pattern
+2)  Campaign
+3)  Course of Action
+4)  Grouping
+5)  Identity
+6)  Indicator
+7)  Infrastructure
+8)  Intrustion Set
+9)  Location
+10) Malware
+11) Malware Analysis
+12) Note
+13) Observed Data
+14) Opinion
+15) Report
+16) Threat Actor
+17) Tool
+18) Vulnerability
+
+Incident?
