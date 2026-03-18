@@ -12,7 +12,7 @@ try:
         children = zk.get_children(directory)
         current = set(children)       
         if current != previous:
-            print("📁 / directory updated:", sorted(children))
+            print(f"📁 {directory} directory updated: {sorted(children)}")
             previous = current
         time.sleep(1)  # spam delay
         
