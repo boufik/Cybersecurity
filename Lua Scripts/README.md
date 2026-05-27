@@ -1,3 +1,0 @@
-- Some scripts written in Lua
-- Head, rule, action sections are included
-- Additional scritps to the pre-installed Nmap's .nse scripts 
